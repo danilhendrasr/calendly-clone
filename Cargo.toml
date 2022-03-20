@@ -3,5 +3,9 @@ name = "calendly-clone"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+path = "calendly-core/src/lib.rs"
+name = "calendly_core"
+
 [dependencies]
 actix-web = "4.0.1"
